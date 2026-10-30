@@ -5,9 +5,9 @@ Mini site web de présentation d'un établissement avec quelques formations et l
 
 Objectifs:
 
-Présenter l'établissement;
-Mettre en valeur les formations;
-Faciliter l'accès aux informations et aux contacts;
+Présenter l'établissement,
+Mettre en valeur les formations,
+Faciliter l'accès aux informations et aux contacts,
 
 Technologies utilisés: HTML5,CSS et Javascript
 
