@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPG | Accueil</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="Accueil EPG">
+        <img src="images/competence_center_fes_logo (1).jpg" alt="Logo EPG" class="brand-logo" />
+        <span>EPG</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">Accueil</a></li>
+          <li>
+            <details class="nav-formation-menu">
+              <summary>Formations <span aria-hidden="true">▾</span></summary>
+              <div class="formation-dropdown">
+                <label for="formation-search-home">Rechercher une formation</label>
+                <input id="formation-search-home" class="formation-search" type="search" placeholder="Saisir un nom..." autocomplete="off" />
+                <ul class="formation-list">
+                  <li><a href="formations.html#developpement-web">Développement web</a></li>
+                  <li><a href="formations.html#messagerie-travail-collaboratif">Messagerie et travail collaboratif</a></li>
+                  <li><a href="formations.html#sgbd">Système de gestion de base de données</a></li>
+                  <li><a href="formations.html#big-data-ia">Big data et intelligence artificielle</a></li>
+                  <li><a href="formations.html#cybersecurite">Cybersécurité</a></li>
+                  <li><a href="formations.html#gestion-projet-bureautique">Gestion de projet et bureautique</a></li>
+                </ul>
+                <p class="formation-no-results" aria-live="polite" hidden>Aucune formation trouvée.</p>
+              </div>
+            </details>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="kicker">École polytechnique des génies</span>
+          <h1>Une formation de qualité pour bâtir l’avenir.</h1>
+          <p>
+            L’EPG accompagne les étudiants et les professionnels dans le développement de leurs compétences
+            dans les domaines du numérique, de l’informatique, des technologies web et de l’innovation.
+          </p>
+          <div class="btn-row">
+            <a class="button button-primary" href="formations.html">Découvrir nos formations</a>
+            <a class="button button-secondary" href="contact.html">Nous contacter</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="images/etudiants-au-travail.jpg" alt="De jeunes étudiants travaillent ensemble sur leurs ordinateurs portables" />
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>EPG</h3>
+        <p>École polytechnique des génies, pour des compétences solides et un avenir professionnel serein.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <p><a href="index.html">Accueil</a></p>
+        <p><a href="formations.html">Formations</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4 class="footer-location-title">
+          <svg class="location-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></svg>
+          Localisation
+        </h4>
+        <p><a class="footer-location-link" href="https://www.google.com/maps/place/Competence+center/@34.0393799,-4.9997231,19z/data=!4m2!3m1!1s0xd9f8b383417e0f7:0xeb81d4430af1313e" target="_blank" rel="noopener noreferrer">Fès - Maroc</a></p>
+        <h4 class="social-heading">Nos réseaux sociaux</h4>
+        <nav class="social-links" aria-label="Réseaux sociaux">
+          <a href="https://www.instagram.com/epg.ma/" target="_blank" rel="noopener noreferrer" aria-label="Instagram EPG">
+            <img class="social-icon" src="images/instagram.svg" alt="" />
+          </a>
+          <a href="https://www.facebook.com/photo/?fbid=533068825276252&amp;set=a.222611692988635" target="_blank" rel="noopener noreferrer" aria-label="Facebook Ecole Polytechnique des Génies">
+            <img class="social-icon" src="images/facebook.svg" alt="" />
+          </a>
+          <a href="https://www.messenger.com/t/epg.ma" target="_blank" rel="noopener noreferrer" aria-label="Messenger Ecole Polytechnique des Génies">
+            <img class="social-icon" src="images/messenger.svg" alt="" />
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 EPG – Tous droits réservés.</div>
+  </footer>
+  <script src="js/formation-search.js" defer></script>
+</body>
+</html>

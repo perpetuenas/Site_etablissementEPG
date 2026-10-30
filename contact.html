@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPG | Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="brand" aria-label="Accueil EPG">
+        <img src="images/competence_center_fes_logo (1).jpg" alt="Logo EPG" class="brand-logo" />
+        <span>EPG</span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li>
+            <details class="nav-formation-menu">
+              <summary>Formations <span aria-hidden="true">▾</span></summary>
+              <div class="formation-dropdown">
+                <label for="formation-search-contact">Rechercher une formation</label>
+                <input id="formation-search-contact" class="formation-search" type="search" placeholder="Saisir un nom..." autocomplete="off" />
+                <ul class="formation-list">
+                  <li><a href="formations.html#developpement-web">Développement web</a></li>
+                  <li><a href="formations.html#messagerie-travail-collaboratif">Messagerie et travail collaboratif</a></li>
+                  <li><a href="formations.html#sgbd">Système de gestion de base de données</a></li>
+                  <li><a href="formations.html#big-data-ia">Big data et intelligence artificielle</a></li>
+                  <li><a href="formations.html#cybersecurite">Cybersécurité</a></li>
+                  <li><a href="formations.html#gestion-projet-bureautique">Gestion de projet et bureautique</a></li>
+                </ul>
+                <p class="formation-no-results" aria-live="polite" hidden>Aucune formation trouvée.</p>
+              </div>
+            </details>
+          </li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h1>Contactez-nous</h1>
+          <p>Une question sur nos formations ou votre parcours ? Nous sommes à votre écoute.</p>
+        </div>
+
+        <div class="form-grid">
+          <form>
+            <div class="field">
+              <label for="nom">Nom complet</label>
+              <input id="nom" type="text" placeholder="Votre nom" />
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" placeholder="Votre e-mail" />
+            </div>
+            <div class="field">
+              <label for="objet">Objet</label>
+              <input id="objet" type="text" placeholder="Objet du message" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Écrivez votre message..."></textarea>
+            </div>
+            <div class="btn-row">
+              <button type="submit" class="button button-primary">Envoyer</button>
+            </div>
+          </form>
+
+          <div class="info-box">
+            <h3>Informations utiles</h3>
+            <p>Nous vous répondons rapidement pour vous orienter vers le bon programme.</p>
+            <div class="contact-cards">
+              <div class="contact-card">
+                <strong class="contact-title">
+                  <svg class="contact-icon whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.1 4 4.1-1.1A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.4.7.7-2.3-.2-.3A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8.9-.3.2-.5.1a6.6 6.6 0 0 1-1.9-1.2 7.1 7.1 0 0 1-1.3-1.6c-.1-.2 0-.3.1-.4l.4-.4.2-.4c.1-.1 0-.3 0-.4s-.5-1.3-.7-1.8c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3s-.8.8-.8 1.9.8 2.2.9 2.3a9.2 9.2 0 0 0 3.5 3.1c.5.2.9.4 1.2.5.5.2 1 .2 1.4.1.4-.1 1.4-.6 1.6-1.1s.2-1 .2-1.1-.2-.2-.4-.3Z"/></svg>
+                  WhatsApp
+                </strong>
+                <p><a class="contact-link" href="https://wa.me/212619086666">+212 6 19 08 66 66</a></p>
+              </div>
+              <div class="contact-card">
+                <strong class="contact-title">
+                  <svg class="contact-icon mobile-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11.4 11.4 0 0 0 3.5.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17.9 17.9 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .6 3.5 1 1 0 0 1-.2 1Z"/></svg>
+                  Mobile
+                </strong>
+                <p><a class="contact-link" href="tel:+212660777382">+212 6 60 77 73 82</a></p>
+              </div>
+              <div class="contact-card">
+                <strong class="contact-title">
+                  <svg class="contact-icon email-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+                  E-mail
+                </strong>
+                <p><a class="contact-link" href="mailto:contact@epg.ma">contact@epg.ma</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>EPG</h3>
+        <p>École polytechnique des génies, pour des compétences solides et un avenir professionnel serein.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <p><a href="index.html">Accueil</a></p>
+        <p><a href="formations.html">Formations</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4 class="footer-location-title">
+          <svg class="location-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></svg>
+          Localisation
+        </h4>
+        <p><a class="footer-location-link" href="https://www.google.com/maps/place/Competence+center/@34.0393799,-4.9997231,19z/data=!4m2!3m1!1s0xd9f8b383417e0f7:0xeb81d4430af1313e" target="_blank" rel="noopener noreferrer">Fès - Maroc</a></p>
+        <h4 class="social-heading">Nos réseaux sociaux</h4>
+        <nav class="social-links" aria-label="Réseaux sociaux">
+          <a href="https://www.instagram.com/epg.ma/" target="_blank" rel="noopener noreferrer" aria-label="Instagram EPG">
+            <img class="social-icon" src="images/instagram.svg" alt="" />
+          </a>
+          <a href="https://www.facebook.com/photo/?fbid=533068825276252&amp;set=a.222611692988635" target="_blank" rel="noopener noreferrer" aria-label="Facebook Ecole Polytechnique des Génies">
+            <img class="social-icon" src="images/facebook.svg" alt="" />
+          </a>
+          <a href="https://www.messenger.com/t/epg.ma" target="_blank" rel="noopener noreferrer" aria-label="Messenger Ecole Polytechnique des Génies">
+            <img class="social-icon" src="images/messenger.svg" alt="" />
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 EPG – Tous droits réservés.</div>
+  </footer>
+  <script src="js/formation-search.js" defer></script>
+</body>
+</html>
